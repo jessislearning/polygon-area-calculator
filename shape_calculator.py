@@ -49,9 +49,12 @@ class Square(Rectangle):
     def set_side(self, side):
         self.width = side
         self.height = side
+        self.side = side
     
-    def set_height(self):
-        pass
+    def set_height(self, side):
+        self.side=side
+        self.height=side
 
-    def set_width(self):
-        pass
+    def set_width(self, side):
+        self.side = side
+        self.width = side
